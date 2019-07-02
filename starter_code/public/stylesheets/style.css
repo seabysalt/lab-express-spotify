@@ -1,0 +1,141 @@
+/* ============================ Main Page ============================== */
+
+.container-home {
+  background-image: url(/images/spotify-landing.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  height: 100vh;
+}
+
+.form {
+  text-align: center;
+  width: 50vw;
+  height: 30vh;
+  background-color: rgba(255, 255, 255, 0.685);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.searchInput {
+  text-align: left;
+  width: 30vw;
+  height: 5vh;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.searchButton {
+  background-color: rgba(245, 72, 72, 0.904);
+  color: white;
+  width: 20vw;
+  height: 5vh;
+  font-size: 14px;
+}
+
+/* ============================ Artists Page ============================== */
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.artists-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 40px auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin: 10px auto;
+}
+
+.viewAlbums-btn {
+  background-color: rgba(245, 72, 72, 0.904);
+  color: white;
+  text-decoration: none;
+}
+
+.card-body button {
+  background-color: rgba(245, 72, 72, 0.904);
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.head {
+  padding: 40px 40px;
+  background-color: rgba(245, 72, 72, 0.904);
+  color: white;
+}
+
+.footer {
+  padding: 40px 40px;
+  background-color: rgba(245, 72, 72, 0.904);
+  color: white;
+  height: 40px;
+}
+
+.albums-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 40px auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.tracks-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: space-evenly;
+  padding: 40px;
+  height: auto;
+}
+
+.heading {
+  padding: 40px;
+  font-size: 20px;
+  color: rgba(245, 72, 72, 0.904);
+}
+
+.tracks {
+  padding: 40px;
+}
+
+.tracks p {
+  margin-right: 50px;
+}
+
+.listen {
+  padding: 10px;
+}
+
+.heading th:first-child {
+  padding-right: 80px;
+}

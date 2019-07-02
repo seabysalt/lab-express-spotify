@@ -1,0 +1,24 @@
+<div>
+  <div class="head">
+    <h1>Listen to your tracks</h1>
+  </div>
+  <table class="tracks-wrapper">
+    <tr class="heading">
+      <th>Title</th>
+      <th>Listen</th>
+    </tr>
+    {{#each items}}
+    <tr class="tracks">
+      <td>
+        <p>{{name}}</p>
+      </td>
+      <td>
+        <audio src="{{preview_url}}" controls  class="listen"></audio>
+      </td>
+    </tr>
+    {{/each}}
+  </table>
+  <div class="footer">
+
+  </div>
+</div>
